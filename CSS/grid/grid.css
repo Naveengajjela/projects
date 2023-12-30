@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parent{
+    border: 2px solid black;
+    width: 80vw;
+    height: 80vh;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    
+}
+
+.parent .child{
+    display: grid;
+    place-items: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.parent .child1{
+    background-color: red;
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-column: 1/4;
+    /* grid-row-start: 1;
+    grid-row-end: 5; */
+    grid-row: 1/5;
+}
+
+.parent .child2{
+    background-color: blue;
+}
+
+.parent .child3{
+    background-color: green;
+}
+
+.parent .child4{
+    background-color: magenta;
+}
+
+.parent .child5{
+    background-color: crimson;
+}
+
+.parent .child6{
+    background-color: darkorange;
+}
+
+.parent .child7{
+    background-color: red;
+}
+
+.parent .child8{
+    background-color: blue;
+}
+
+.parent .child9{
+    background-color: green;
+}
+
+.parent .child10{
+    background-color: magenta;
+}
+
+.parent .child11{
+    background-color: crimson;
+}
+
+.parent .child12{
+    background-color: darkorange;
+}
+
+
+
